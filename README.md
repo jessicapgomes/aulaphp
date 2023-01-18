@@ -1,3 +1,4 @@
+<pre>
  Instalando o PHP
  https:www.youtube.com/watch?v=HzIXZVctwI8
 
@@ -67,3 +68,5 @@
      echo "<tr> <td>".$v['nome']."</th><th>".$v['idade']."</th><th>".$v['sexo']."</th> </tr>";
  }
  echo "</table>";
+
+ </pre>
