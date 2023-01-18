@@ -1,69 +1,69 @@
-# Instalando o PHP
-# https:#www.youtube.com/watch?v=HzIXZVctwI8
+ Instalando o PHP
+ https:www.youtube.com/watch?v=HzIXZVctwI8
 
-########################################
 
-# Tipos de variáveis php
 
-# Número
-# $x = 5;
+ Tipos de variáveis php
 
-# String
-# $x = "Bruno Ramos Martins";
+ Número
+ $x = 5;
 
-# Booleano
-# $x = true
-# $x = false
+ String
+ $x = "Bruno Ramos Martins";
 
-# Nula
-# $x = null;
+ Booleano
+ $x = true
+ $x = false
 
-# Array
-# $x = array(
-#     'nome' => 'bruno',
-#     'idade' => 38,
-#     'sexo' => 'masculino',
-#     'programador' => true
-# );
+ Nula
+ $x = null;
 
-# Exibir valores de um array
-# print_r($x);
+ Array
+ $x = array(
+     'nome' => 'bruno',
+     'idade' => 38,
+     'sexo' => 'masculino',
+     'programador' => true
+ );
 
-# Exibir array formatado
-# echo "<pre>";
-# print_r($x);
-# echo "</pre>";
+ Exibir valores de um array
+ print_r($x);
 
-# exibindo um item de um array
-# echo $x['nome'];
+ Exibir array formatado
+ echo "<pre>";
+ print_r($x);
+ echo "</pre>";
 
-# Percorrendo as linhas de um array
-# foreach ($x as $k => $v) {
-#     echo $k.": ".$v."<br>";
-# }
+ exibindo um item de um array
+ echo $x['nome'];
 
-# Array bidimensional
-# $x = array(
-#     'cliente1' => array(
-#         'nome' => 'bruno',
-#         'idade' => 38,
-#         'sexo' => 'masculino',
-#         'programador' => true
-#     ),
-#     'cliente2' => array(
-#         'nome' => 'marcelo',
-#         'idade' => 28,
-#         'sexo' => 'masculino',
-#         'programador' => true
-#     )
-# );
+ Percorrendo as linhas de um array
+ foreach ($x as $k => $v) {
+     echo $k.": ".$v."<br>";
+ }
 
-# Exibindo um item de um array bidimensional
-# echo $x['cliente2']['nome'];
+ Array bidimensional
+ $x = array(
+     'cliente1' => array(
+         'nome' => 'bruno',
+         'idade' => 38,
+         'sexo' => 'masculino',
+         'programador' => true
+     ),
+     'cliente2' => array(
+         'nome' => 'marcelo',
+         'idade' => 28,
+         'sexo' => 'masculino',
+         'programador' => true
+     )
+ );
 
-# Montando uma tabela de um array bidimensional
-# echo "<table class='table'><tr><th>Nome</th><th>Idade</th><th>Sexo</th></tr>";
-# foreach ($x as $k => $v) {
-#     echo "<tr> <td>".$v['nome']."</th><th>".$v['idade']."</th><th>".$v['sexo']."</th> </tr>";
-# }
-# echo "</table>";
+ Exibindo um item de um array bidimensional
+ echo $x['cliente2']['nome'];
+
+ Montando uma tabela de um array bidimensional
+ echo "<table class='table'><tr><th>Nome</th><th>Idade</th><th>Sexo</th></tr>";
+ foreach ($x as $k => $v) {
+     echo "<tr> <td>".$v['nome']."</th><th>".$v['idade']."</th><th>".$v['sexo']."</th> </tr>";
+ }
+ echo "</table>";
