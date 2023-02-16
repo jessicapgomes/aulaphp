@@ -1,0 +1,23 @@
+Criar uma nova tabela com campos diferentes (no banco)
+
+popular a tabela usando o chatGPT para gerar um SQL INSERT com os dados (no banco)
+
+Desenhar a interface da aplicação sem nenhum elemento do php (Só html). Salvar como view.php. Simular a tabela como se tivesse populada, pode ser so 3 linhas.
+
+Criar um arquivo index.php e copiar o arquivo db.php para dentro da pasta.
+
+no index.php, fazer include do db.php
+
+fazer uma consulta no banco, salvar em uma variavel, e exibir na tela usando o comando print_r do php.
+
+Observando como o array é impresso pelo print_r, remover as linhas estaticas do html na tabela, fazendo um loop (foreach) para popular a tabela dinamicamente com o php.
+
+________________________________________
+
+Cadastrando
+
+verificar os dados enviados pelo formulario via $_POST
+
+fazer o cadastro dos dados
+
+Fazer a exclusão de itens
